@@ -1,8 +1,63 @@
-p{
-    background-color: aliceblue;
+.container{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
 }
-h5{
-    background-color: aliceblue;
+.child{
+    /* border: 2px solid red; */
+    width: 400px; 
+    height: 40px;   
+    display: flex;
 }
-h4{
-    background-color: alic
+body{
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    display: flex;
+}
+.sub{
+    /* border: 2px solid green; */
+    width: 40px;
+    height: 40px;
+}
+.container-1>.sub:nth-child(even){
+   background-color: orange;
+}
+.container-2>.sub:nth-child(odd){
+   background-color: orange;
+}
+.container-3>.sub:nth-child(even){
+   background-color: orange;
+}
+.container-4>.sub:nth-child(odd){
+   background-color: orange;
+}
+.container-5>.sub:nth-child(even){
+   background-color: orange;
+}
+.container-6>.sub:nth-child(odd){
+   background-color: orange;
+}
+.container-7>.sub:nth-child(even){
+   background-color: orange;
+}
+.container-8>.sub:nth-child(odd){
+   background-color: orange;
+}
+.container-9>.sub:nth-child(even){
+   background-color: orange;
+}
+.container-10>.sub:nth-child(odd){
+   background-color: orange;
+}
+img{
+    padding-left: 3px;
+    padding-top: 3px;
+}
+.sub:hover{
+   background-color: blue;
+}
+.sub:hover>img{
+    display: none;
+}
+
